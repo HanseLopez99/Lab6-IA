@@ -188,7 +188,7 @@ def run_experiment(algo:str, param:int, starter:str, n:int=1000) -> Tuple[int,in
 
 # ────────────────────────────────────────────────────────────────────────────────
 if __name__=='__main__':
-    random.seed(42)
+
     experiments = [
         ('plain', 4), ('plain', 6),
         ('ab',    4), ('ab',    6),
